@@ -1,2 +1,4 @@
+removed_sources:
+  Devel-CheckLib-0.93.tar.gz: 869572bf51e26f7a6069b569379a231f92e9459c
 sources:
-  "Devel-CheckLib-0.93.tar.gz": 869572bf51e26f7a6069b569379a231f92e9459c
+  Devel-CheckLib-1.01.tar.gz: cbbf95bcc443530280d5b9da4308e2dfea90b497
