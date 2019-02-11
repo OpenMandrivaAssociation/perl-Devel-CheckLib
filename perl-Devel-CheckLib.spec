@@ -1,14 +1,14 @@
 %define upstream_name    Devel-CheckLib
-%define upstream_version 1.01
+%define upstream_version 1.13
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Check that a library is available
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		http://metacpan.org/release/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Devel/Devel-CheckLib-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
