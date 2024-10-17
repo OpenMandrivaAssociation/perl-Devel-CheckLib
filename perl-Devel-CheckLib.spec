@@ -8,7 +8,7 @@ Release:	3
 Summary:	Check that a library is available
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://metacpan.org/release/%{upstream_name}
+Url:		https://metacpan.org/release/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Devel/Devel-CheckLib-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
