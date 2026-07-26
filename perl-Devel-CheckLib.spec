@@ -1,15 +1,13 @@
 %define upstream_name    Devel-CheckLib
-%define upstream_version 1.16
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	1.16
+Release:	2
 
 Summary:	Check that a library is available
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/mattn/p5-Devel-CheckLib
-Source0:	https://cpan.metacpan.org/authors/id/M/MA/MATTN/Devel-CheckLib-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/M/MA/MATTN/Devel-CheckLib-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -27,7 +25,7 @@ Devel::CheckLib is a perl module that checks whether a particular C library
 and its headers are available.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
